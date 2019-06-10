@@ -9,14 +9,14 @@ Camera:
 Actor:
 	[] Constant movement(endless runner)
 		[] Colour code moving object
-	[] Mouse Swipe Jump
+	[x] Mouse Swipe Jump
 		[]event delegate, change colour when jumping
 
 Managers:
 	[] Check if only one is instantiated
 GameManager:
 	[] CanUsePlayerControls
-	[] RunningEnabled
+	[x] RunningEnabled
 	
 	
 	
