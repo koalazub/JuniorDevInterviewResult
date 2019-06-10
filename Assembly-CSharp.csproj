@@ -57,6 +57,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CollisionPenaliser.cs" />
+    <Compile Include="Assets\RespawnASctor.cs" />
     <Compile Include="Assets\Scripts\EndlessRun.cs" />
     <Compile Include="Assets\Scripts\FollowActor.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
