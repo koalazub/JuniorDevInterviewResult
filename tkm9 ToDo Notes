@@ -15,15 +15,20 @@ Actor:
 Managers:
 	[] Check if only one is instantiated
 GameManager:
-	[] CanUsePlayerControls
+	[x] CanUsePlayerControls
 	[x] RunningEnabled
+	[] keep spawning new trees
 	
 	
 	
 ScoreManager:
-	[] Jump counter
-	[] Dodge obstacle misses
+	[x] Jump counter
+	[x] Dodge obstacle misses
 		[] if collision made with obstacle
 	[] Store end result in a list
 		
-	
+Menu:
+
+	[x]Play New Game
+	[x]Exit game
+	[] Call Menu whenever
