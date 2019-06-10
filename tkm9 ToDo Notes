@@ -1,3 +1,29 @@
 Steps:
 
-	- 
+	[x] Upload to Git
+	[] 
+	
+Camera:
+	[x] Follow Actor
+	
+Actor:
+	[] Constant movement(endless runner)
+		[] Colour code moving object
+	[] Mouse Swipe Jump
+		[]event delegate, change colour when jumping
+
+Managers:
+	[] Check if only one is instantiated
+GameManager:
+	[] CanUsePlayerControls
+	[] RunningEnabled
+	
+	
+	
+ScoreManager:
+	[] Jump counter
+	[] Dodge obstacle misses
+		[] if collision made with obstacle
+	[] Store end result in a list
+		
+	

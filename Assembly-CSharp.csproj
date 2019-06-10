@@ -57,8 +57,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EndlessRun.cs" />
     <Compile Include="Assets\Scripts\FollowActor.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Scoremanager.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\UserInput.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/elali/Documents/tkm9Proj/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
